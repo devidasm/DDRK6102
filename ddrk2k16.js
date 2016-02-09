@@ -13,17 +13,17 @@ jQuery(document).ready(function() {
 
 	// Listing Item
 	( function() {
-		var store_listing_item = $('.store-listing-item');
+		var store_listing_item = $('.coupon-container');
 		store_listing_item.each( function(){
 			// Open Modal
-			var coupon_modal = $(this).find('.coupon-modal');
-			var coupon_id = coupon_modal.attr('id');
-			$(this).find('.coupon-button-type .coupon-button').click( function () {
+		//	var coupon_modal = $(this).find('.coupon-modal');
+		//	var coupon_id = coupon_modal.attr('id');
+			$(this).find('button button2').click( function () {
 				var aff_url = $(this).attr('data-aff-url');
 				var current_url = $(location).attr('href');
 				window.open(aff_url, '_self');
-				window.open('#'+ coupon_id,'_blank');
-				$(coupon_modal).modal('show');
+				window.open('#'+ 'coupon','_blank');
+			//	$(coupon_modal).modal('show');
 				return false;
 			} );
 			var coupon_hash = $(location).attr('hash');
