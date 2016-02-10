@@ -21,9 +21,9 @@ jQuery(document).ready(function() {
             $(this).find('button').click( function () {
                 var aff_url = $(this).attr('data-aff-url');
                 alert(aff_url);
-                var current_url = $(location).attr('href');
-                window.open(aff_url, '_self');
-                window.open('#'+ 'coupon','_blank');
+              //  var current_url = $(location).attr('href');
+             //   window.open(aff_url, '_self');
+              //  window.open('#'+ 'coupon','_blank');
                 //	$(coupon_modal).modal('show');
                 return false;
             } );
