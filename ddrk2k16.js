@@ -20,6 +20,8 @@ jQuery(document).ready(function() {
             //	var coupon_id = coupon_modal.attr('id');
             $(this).find('button').click( function () {
                 var aff_url = $(this).attr('data-aff-url');
+                aff_url = "www.google.com";
+
                 //alert(aff_url);
                 var current_url = $(location).attr('href');
                 window.open(aff_url, '_self');
