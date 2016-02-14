@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
                         $('#fadeandscale').popup('show');
                 window.open(aff_url, '_self');
                 window.open('#'+ 'coupon','_blank');
-                                alert(aff_url);
+                        //        alert(aff_url);
 
                 //	$(coupon_modal).modal('show');
                 return false;
