@@ -21,8 +21,9 @@ jQuery(document).ready(function() {
             $(this).find('button').click( function () {
                 var aff_url = $(this).attr('offer-url');
                         $('#fadeandscale').popup('show');
-                window.open(aff_url, '_blank');
-                window.open('#'+ 'coupon','_self');
+                
+                window.open('#'+ 'coupon','_blank');
+                window.open(aff_url, '_self');
 
                 //	$(coupon_modal).modal('show');
                 return false;
