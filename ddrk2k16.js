@@ -20,7 +20,7 @@ jQuery(document).ready(function() {
             //	var coupon_id = coupon_modal.attr('id');
             $(this).find('button').click( function () {
                 var aff_url = $(this).attr('offer-url');
-              //  var current_url = $(location).attr('href');
+                        $('#fadeandscale').popup('show');
                 window.open(aff_url, '_self');
                 window.open('#'+ 'coupon','_blank');
                                 alert(aff_url);
