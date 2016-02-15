@@ -20,6 +20,12 @@ jQuery(document).ready(function() {
             //	var coupon_id = coupon_modal.attr('id');
             $(this).find('button').click( function () {
                 var aff_url = $(this).attr('offer-url');
+                var desc = $(this).attr('h3');
+                var cpc = $(this).attr('cp_code');
+
+
+                $(".offer-desc").text(desc);  
+                 $(".code-text").text(cpc);
                         $('#fadeandscale').popup('show');
                  window.open(aff_url, '_blank');
                 window.open('#'+ 'coupon','_self');
