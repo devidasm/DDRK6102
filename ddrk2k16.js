@@ -22,7 +22,7 @@ jQuery(document).ready(function() {
                 var aff_url = $(this).attr('offer-url');
                 var desc = $(this).attr('coupon-desc');
                 var cpc = $(this).attr('cp_code');
-            if(cpc!=nil)
+            if(cpc!='')
             {
               $(".offer-desc").text(desc);  
               $(".code-text").text(cpc);
