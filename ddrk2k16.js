@@ -28,20 +28,17 @@ jQuery(document).ready(function() {
             {
               $(".offer-desc").text(desc);  
               $(".code-text").text(cpc);
-               $('#fadeandscale').popup('show');
-                 window.open(aff_url, '_blank');
-                window.open('#'+ 'coupon','_self');
+             
             }
              else     
              {
-                 alert('in else');
               $(".offer-desc").text('No Coupon Code Required');  
               $(".code-text").text('DEAL ACTIVATED');
+            
+             }
                $('#fadeandscale').popup('show');
                  window.open(aff_url, '_blank');
                 window.open('#'+ 'coupon','_self');
-             }
-            
               
 
                 //	$(coupon_modal).modal('show');
