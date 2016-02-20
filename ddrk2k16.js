@@ -32,8 +32,8 @@ jQuery(document).ready(function() {
             }
              else     
              {
-              $(".offer-desc").text('No Coupon Code Required');  
-              $(".cpc").text('');  
+              $(".offer-desc").text(desc);  
+              $(".cpc").text('No Coupon Code Required');  
               $(".code-text").text('DEAL ACTIVATED');
             
              }
