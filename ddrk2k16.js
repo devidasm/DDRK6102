@@ -33,6 +33,7 @@ jQuery(document).ready(function() {
              else     
              {
               $(".offer-desc").text('No Coupon Code Required');  
+              $(".cpc").text('');  
               $(".code-text").text('DEAL ACTIVATED');
             
              }
