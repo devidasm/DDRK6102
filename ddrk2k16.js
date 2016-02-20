@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
                 var desc = $(this).attr('coupon-desc');
                 var cpc = $(this).attr('cp_code');
                 
-                 
+                 alert(desc);
             if(cpc!=undefined)
             {
               $(".offer-desc").text(desc);  
