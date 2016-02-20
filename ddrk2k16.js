@@ -24,7 +24,7 @@ jQuery(document).ready(function() {
                 var cpc = $(this).attr('cp_code');
                 
                  
-            if(cpc!='undefined')
+            if(cpc!=undefined)
             {
               $(".offer-desc").text(desc);  
               $(".code-text").text(cpc);
