@@ -20,8 +20,7 @@ jQuery(document).ready(function() {
             //	var coupon_id = coupon_modal.attr('id');
             $(this).find('button').click( function () {
                 var aff_url = $(this).attr('offer-url');
-              //  var desc = $(this).attr('coupon-des');
-              var desc = $("#coupon-des").text();
+                var desc = $(this).attr('offer-des');
 
                 var cpc = $(this).attr('cp_code');
                 
