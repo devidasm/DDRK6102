@@ -22,6 +22,8 @@ jQuery(document).ready(function() {
                 var aff_url = $(this).attr('offer-url');
                 var desc = $(this).attr('coupon-desc');
                 var cpc = $(this).attr('cp_code');
+                
+                 
             if(cpc!='')
             {
               $(".offer-desc").text(desc);  
@@ -29,13 +31,14 @@ jQuery(document).ready(function() {
             }
              else     
              {
+                 alert('in else');
               $(".offer-desc").text('No Coupon Code Required');  
               $(".code-text").text('DEAL ACTIVATED');
              }
-             $('#fadeandscale').popup('show');
+            
+               $('#fadeandscale').popup('show');
                  window.open(aff_url, '_blank');
                 window.open('#'+ 'coupon','_self');
-               
 
                 //	$(coupon_modal).modal('show');
                 return false;
